@@ -1,0 +1,132 @@
+/* ---------- Auth (Login/Register) Pages ---------- */
+
+.auth-body {
+    background: linear-gradient(135deg, #162447, #1f4068, #1b1b2f);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.auth-wrapper {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.auth-card {
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 16px;
+    padding: 24px 26px 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.auth-icon {
+    font-size: 40px;
+    margin-bottom: 6px;
+}
+
+.auth-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #1b1b2f;
+}
+
+.auth-subtitle {
+    margin-top: 4px;
+    color: #555;
+    font-size: 13px;
+}
+
+.auth-form .form-group {
+    margin-bottom: 14px;
+}
+
+.auth-form label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="password"] {
+    width: 100%;
+    padding: 8px 9px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.auth-form input[type="text"]:focus,
+.auth-form input[type="password"]:focus {
+    outline: none;
+    border-color: #2c7be5;
+    box-shadow: 0 0 0 2px rgba(44, 123, 229, 0.2);
+}
+
+/* Reuse your .btn but make a full-width variant */
+.btn-full {
+    width: 100%;
+    text-align: center;
+}
+
+/* tweak existing .btn if you want */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: none;
+    background: #2c7be5;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.18s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+    background: #1b5bb8;
+    transform: translateY(-1px);
+}
+
+.auth-footer-text {
+    margin-top: 14px;
+    text-align: center;
+    font-size: 13px;
+    color: #444;
+}
+
+.auth-footer-text a {
+    color: #2c7be5;
+    text-decoration: none;
+}
+
+.auth-footer-text a:hover {
+    text-decoration: underline;
+}
+
+.auth-footer-small {
+    margin-top: 6px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.auth-footer-small a {
+    color: #777;
+    text-decoration: none;
+}
+
+.auth-footer-small a:hover {
+    text-decoration: underline;
+}
